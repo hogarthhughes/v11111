@@ -215,12 +215,90 @@ img {
   background-image: url("images/selectbutton4.png");
 }
 
+ul.slides-container {
+	display: block;
+	list-style: none;
+	position: relative;
+	height: 100%;
+	
+}
+
+
+.page {
+	position:absolute;
+    margin:-300px 0 0 -300px;
+    width:600px;
+    height:600px;
+    left:50%;
+    top:50%;
+    background: black;
+    font-family: courier new;
+	font-size: 10px;
+	color: white;
+	padding: 10px;
+}
+
+
+.page h1 {
+	font-family: courier new;
+	font-size: 30px;
+	color: white;
+}
+/*.head {
+	display: block;
+	position: relative;
+	height: 50px;
+	width: 600px;
+	max-width: 600px;
+	background-color: black;
+
+}
+
+.head a.link {
+	font-family: courier new;
+	font-size: 30px;
+	color: white;
+}
+
+.head p {
+	font-family: courier new;
+	font-size: 30px;
+	color: white;
+}
+
+.body {
+	background-color: rgba(0,0,0,0.53);
+	width: 600px;
+	max-width: 500px;
+	height: 550px;
+	position:absolute;
+    display: relative;
+
+}
+
+.body p {
+	font-family: courier new;
+	font-size: 10px;
+	color: white;
+}
+*/
+
 
 #slides .slides-container {
   display: none;
   
 .container {
-  height: 100%;
+position: relative;
+width: 50%;
+max-width: 500px;
+left: 90px;
+top: 13%;
+padding: 10px 20px;
+  
+}
+
+/*div#slides {
+	display: block;
 }
 
 /* #midtest {
@@ -242,8 +320,8 @@ img {
 	z-index: -30000;
 }
 
-.container .content {
-/*  display: inherit; */
+/*.container .content {
+  display: inherit; 
   text-align: center;
   z-index: 100;
   width:600px;
@@ -252,10 +330,10 @@ img {
     margin:-200px 0 0 -300px;
     left:50%;
     top:50%;
-    background: black;
+    background: blue;
 
 }
-
+/*
 .container .content .vertical-align {
 /*  display: inherit;
   /*table-cell;*/
@@ -271,7 +349,7 @@ img {
  
  */
  
-.center {
+/*.center {
   	width:600px;
     height:400px;
     position:absolute;
@@ -284,10 +362,9 @@ img {
 	  -moz-transition: all 0.5s ease-in-out 0s;
 	  -o-transition: all 0.5s ease-in-out 0s;
 	  -ms-transition: all 0.5s ease-in-out 0s;
-	  transition: all 0.5s ease-in-out 0s;*/
+	  transition: all 0.5s ease-in-out 0s;
 }
-
-
+*/
 
 .play {
 	width:150px;
